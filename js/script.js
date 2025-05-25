@@ -64,5 +64,29 @@ document.addEventListener("DOMContentLoaded", () => {
         logBatalha.scrollTop = logBatalha.scrollHeight;
     }
 
+    
+    function trocarImagem(ativa) {
+    const todasImagens = document.querySelectorAll(".gorila");
+    todasImagens.forEach((img) => {
+        img.style.display = "none";
+        img.classList.remove("ativo");
+    });
+    ativa.style.display = "block";
+    ativa.classList.add("ativo");
+    }
+
+
+    function toggleBotoes(desabilitar) {
+    botoes.forEach((botao) => {
+        botao.disabled = desabilitar;
+        if (desabilitar) {
+            botao.classList.add("desabilitado");
+        } else {
+            botao.classList.remove("desabilitado");
+        }
+    });
+    }
+
+
 
 });

@@ -116,5 +116,54 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             humanosAtacam();
         }, 1000);
-        }
+    }
+
+    // Função de defesa do gorila
+    function defender() {
+        if (jogoEncerrado || emAcao) return;
+
+        emAcao = true;
+        toggleBotoes(true);
+
+        somDefesa.play();
+        trocarImagem(imgDefendendo);
+
+        reducaoDano = Math.floor(Math.random() * 6) + 2;
+        adicionarLog(`🛡️ Gorila reduzirá ${reducaoDano} de dano no próximo ataque.`);
+        atualizarStatus();
+
+        setTimeout(() => {
+            if (!jogoEncerrado) {
+                trocarImagem(imgGorila);
+            }
+            humanosAtacam();
+        }, 1000);
+    }
+
+    // Função de cura do gorila
+    function curar() {
+        if (jogoEncerrado || emAcao) return;
+
+        emAcao = true;
+        toggleBotoes(true);
+
+        somCura.play();
+        trocarImagem(imgCurando);
+
+        const cura = Math.floor(Math.random() * 8) + 5;
+        const vidaAntes = vidaGorila;
+        vidaGorila = Math.min(VIDA_MAXIMA, vidaGorila + cura);
+        const recuperado = vidaGorila - vidaAntes;
+        adicionarLog(`❤️ Gorila se curou e recuperou ${recuperado} de vida.`);
+        atualizarStatus();
+
+        setTimeout(() => {
+            if (!jogoEncerrado) {
+                trocarImagem(imgGorila);
+            }
+            humanosAtacam();
+        }, 1000);
+    }
+
+
 });

@@ -87,6 +87,34 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     }
 
+    // Função de ataque do gorila
+    function atacar() {
+        if (jogoEncerrado || emAcao) return;
 
+        emAcao = true;
+        toggleBotoes(true);
 
+        somSoco.play();
+        trocarImagem(imgSoco);
+
+        const quantidadeEliminados = Math.floor(Math.random() * 6) + 3;
+        let eliminados = 0;
+        for (let humano of humanos) {
+            if (eliminados >= quantidadeEliminados) break;
+            if (humano.vivo) {
+                humano.vivo = false;
+                eliminados++;
+            }
+        }
+        ataquesFeitos++;
+        adicionarLog(`🦍 Gorila atacou e eliminou ${eliminados} humano(s)!`);
+        atualizarStatus();
+
+        setTimeout(() => {
+            if (!jogoEncerrado) {
+                trocarImagem(imgGorila);
+            }
+            humanosAtacam();
+        }, 1000);
+        }
 });

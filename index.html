@@ -13,24 +13,28 @@
 </head>
 
 <body>
-  <header calss="titulo-jogo">
-    <h1>Gorila 
-    <span class="espada"></span>
-      100 Humanos</h1>
+  <header class="titulo-jogo">
+    <h1>
+      <span class="icone esquerda" aria-hidden="true"></span>
+      Gorila
+      <span class="espada" aria-hidden="true"></span>
+      100 Humanos
+      <span class="icone direita" aria-hidden="true"></span>
+    </h1>
   </header>
 
   <main class="game-container">
     <section id="status-bar">
       <div class="status-box">
         <div class="status-item">
-          <span class="emoji"><img src="assets/img/icones/coracao.png" alt="imagem de um coração"></span>
+          <span class="emoji icone-coracao" aria-hidden="true"></span>
           <span class="label">Vida do Gorila</span>
           <span class="value" id="vida-gorila">100</span>
         </div>
       </div>
       <div class="status-box">
         <div class="status-item">
-          <span class="emoji"><img src="assets/img/icones/humano.png" alt="imagem de um humano"></span>
+          <span class="emoji icone-humano" aria-hidden="true"></span>
           <span class="label">Humanos Restantes</span>
           <span class="value" id="humanos-restantes">100</span>
         </div>

@@ -22,7 +22,6 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   margin-bottom: 8px;
 }
-
 .titulo-jogo h1 {
   font-size: 50px;
   color: #ffd700;
@@ -32,7 +31,6 @@ header {
   gap: 8px;
   flex-wrap: wrap;
 }
-
 .titulo-jogo .icone,
 .titulo-jogo .espada {
   width: 50px;
@@ -41,20 +39,53 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .titulo-jogo .icone.esquerda {
   background-image: url('../assets/img/icones/gorila-titulo.png');
 }
-
 .titulo-jogo .icone.direita {
   background-image: url('../assets/img/icones/humano.png');
 }
-
 .titulo-jogo .espada {
   background-image: url('../assets/img/icones/espadas.png');
 }
-
 h1 {
   font-size: 20px;
   color: #ffd700;
+}
+main.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  padding: 4px;
+}
+#status-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 4px 0;
+  align-items: center;
+  width: 100%;
+}
+.status-box {
+  background-color: #013a35;
+  border: 2px solid #00ffaa;
+  padding: 8px;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 260px;
+  min-width: 180px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.status-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
 }

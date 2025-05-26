@@ -26,6 +26,66 @@ document.addEventListener("DOMContentLoaded", () => {
     const somDefesa = new Audio("assets/audio/defesa.ogg");
     const somSoco = new Audio("assets/audio/soco.wav");
 
+    function salvarEstadoJogo() {
+        const estadoJogo = {
+            vidaGorila,
+            humanos,
+            ataquesFeitos,
+            reducaoDano,
+            jogoEncerrado,
+            emAcao,
+            logBatalha: logBatalha.innerHTML
+        };
+        localStorage.setItem('gorilaVsHumanos', JSON.stringify(estadoJogo));
+        console.log('Estado do jogo salvo:', estadoJogo);
+    }
+
+    function carregarEstadoJogo() {
+        const estadoSalvo = localStorage.getItem('gorilaVsHumanos');
+        console.log('Estado salvo encontrado:', estadoSalvo);
+        
+        if (estadoSalvo) {
+            const estado = JSON.parse(estadoSalvo);
+            vidaGorila = estado.vidaGorila;
+            humanos = estado.humanos;
+            ataquesFeitos = estado.ataquesFeitos;
+            reducaoDano = estado.reducaoDano;
+            jogoEncerrado = estado.jogoEncerrado;
+            emAcao = false; 
+            logBatalha.innerHTML = estado.logBatalha;
+
+            atualizarStatus();
+            
+            if (jogoEncerrado) {
+                toggleBotoes(true);
+                restartSection.classList.remove("hidden");
+            } else {
+                toggleBotoes(false); 
+            }
+
+      
+            if (jogoEncerrado) {
+                if (vidaGorila <= 0) {
+                    trocarImagem(document.getElementById("imagem-gorila-derrota"));
+                } else {
+                    trocarImagem(document.getElementById("imagem-gorila-vitoria"));
+                }
+            } else {
+                trocarImagem(imgGorila);
+            }
+
+            console.log('Estado do jogo carregado:', estado); 
+        }
+    }
+
+    function limparEstadoSalvo() {
+        localStorage.removeItem('gorilaVsHumanos');
+        console.log('Estado do jogo limpo');
+    }
+
+    function salvarAposAcao() {
+        salvarEstadoJogo();
+    }
 
     function reiniciarJogo() {
         vidaGorila = VIDA_MAXIMA;

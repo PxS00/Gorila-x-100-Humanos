@@ -89,3 +89,32 @@ main.game-container {
   gap: 8px;
   white-space: nowrap;
 }
+.status-item .emoji {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0;
+}
+
+.icone-coracao {
+  background-image: url('../assets/img/icones/coracao.png');
+}
+
+.icone-humano {
+  background-image: url('../assets/img/icones/humano.png');
+}
+
+.status-item .label {
+  font-size: 12px;
+  color: #00ffaa;
+  flex-shrink: 0;
+}
+
+.status-item .value {
+  font-size: 14px;
+  color: #ffd700;
+  flex-shrink: 0;
+}

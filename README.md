@@ -54,7 +54,7 @@ cd Gorila-x-100-Humanos
 
 3. Abra o arquivo index.html no navegador.
 
-## 👥 Equipe de Desenvolvimento
+## Equipe de Desenvolvimento
 
 | Nome                           | GitHub                                        | LinkedIn                                                                |
 | ------------------------------ | --------------------------------------------- | ----------------------------------------------------------------------- |

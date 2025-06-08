@@ -14,7 +14,7 @@ O projeto conta com interface intuitiva, animações leves e feedback visual ime
 
 ---
 
-## 🎮 Funcionalidades
+## Funcionalidades
 
 ### Sistema de Combate
 - **Ataque:** Golpeia os inimigos, reduzindo seu número.
@@ -33,7 +33,7 @@ O projeto conta com interface intuitiva, animações leves e feedback visual ime
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40" />
@@ -43,7 +43,7 @@ O projeto conta com interface intuitiva, animações leves e feedback visual ime
 
 ---
 
-## 🚀 Como Executar Localmente
+## Como Executar Localmente
 
 1. Clone o repositório:
 
@@ -66,7 +66,7 @@ cd Gorila-x-100-Humanos
 | Kelson Zhang                   | [KelsonZh0](https://github.com/KelsonZh0)     | [LinkedIn](https://www.linkedin.com/in/kelson-zhang-211456323/)         |
 | Lucas Rossoni Dieder           | [PxS00](https://github.com/PxS00)             | [LinkedIn](https://www.linkedin.com/in/lucas-rossoni-dieder-32242a353/) |
 
-## 👨‍🏫 Informações Acadêmicas
+## Informações Acadêmicas
 
 **Professor Responsável:** Alexandre Carlos de Jesus  
 **Disciplina:** Front-end Design Engineering  

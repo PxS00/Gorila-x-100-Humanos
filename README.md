@@ -34,14 +34,11 @@ O projeto conta com interface intuitiva, animações leves e feedback visual ime
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-<div style="display: inline_block"><br>
-  <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-</div>
+![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg)
+![HTML5](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg)
+![CSS3](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg)
 
-
-- **localStorage:** Armazenamento e recuperação de dados
+- **localStorage**: Armazenamento e recuperação de dados
 
 ---
 
@@ -51,12 +48,12 @@ O projeto conta com interface intuitiva, animações leves e feedback visual ime
 
 ```bash
 git clone https://github.com/PxS00/Gorila-x-100-Humanos
-
 ```
 
 2. Acesse a pasta do projeto:
-
+```bash
 cd Gorila-x-100-Humanos
+```
 
 3. Abra o arquivo index.html no navegador.
 

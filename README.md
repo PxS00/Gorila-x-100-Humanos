@@ -34,15 +34,13 @@ O projeto conta com interface intuitiva, animações leves e feedback visual ime
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-
-### Front-end
 <div style="display: inline_block"><br>
   <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
 
-- **HTML5 + CSS3 + JavaScript Puro**
+
 - **localStorage:** Armazenamento e recuperação de dados
 
 ---
@@ -53,6 +51,8 @@ O projeto conta com interface intuitiva, animações leves e feedback visual ime
 
 ```bash
 git clone https://github.com/PxS00/Gorila-x-100-Humanos
+
+```
 
 2. Acesse a pasta do projeto:
 

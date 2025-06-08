@@ -5,14 +5,13 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 **Gorila x 100 Humanos** é um jogo interativo de turnos desenvolvido como parte do CP3 da disciplina *Front-end Design Engineering* da FIAP.  
 O jogador controla um gorila em uma batalha estratégica contra 100 humanos, utilizando ações como ataque, defesa e cura para sobreviver.
 
 O projeto conta com interface intuitiva, animações leves e feedback visual imediato das ações, além de adaptação para dispositivos móveis.
 
----
 
 ## Funcionalidades
 
@@ -31,7 +30,6 @@ O projeto conta com interface intuitiva, animações leves e feedback visual ime
 - **Persistência com localStorage:** Mantém o estado do jogo mesmo ao recarregar.
 - **Design Responsivo:** Compatível com desktops e dispositivos móveis.
 
----
 
 ## Tecnologias Utilizadas
 <p align="left">
@@ -40,8 +38,6 @@ O projeto conta com interface intuitiva, animações leves e feedback visual ime
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="40" />
 </p>
 - localStorage: Armazenamento e recuperação de dados
-
----
 
 ## Como Executar Localmente
 

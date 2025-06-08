@@ -1,52 +1,79 @@
-CP3 # 🦍 — "Gorila x 100 Humanos"
- 
+# 🦍 Gorila x 100 Humanos
+
+🔗 **Jogue agora:**  
+[https://pxs00.github.io/Gorila-x-100-Humanos/](https://pxs00.github.io/Gorila-x-100-Humanos/)
+
 ---
- 
-## ✅ Funcionalidades
- 
-- 🎯 Gorila pode **atacar**, **se defender** ou **se curar**
-- 🤖 Humanos agem automaticamente
-- 📊 Barra de status com vida e contagem de humanos restantes
-- 💬 Registro de batalha com mensagens dinâmicas
-- 🔁 Estado salvo entre sessões com `localStorage`
-- 🎨 Interface temática com visual animado e responsivo
- 
+
+## 📌 Sobre o Projeto
+
+**Gorila x 100 Humanos** é um jogo interativo de turnos desenvolvido como parte do CP3 da disciplina *Front-end Design Engineering* da FIAP.  
+O jogador controla um gorila em uma batalha estratégica contra 100 humanos, utilizando ações como ataque, defesa e cura para sobreviver.
+
+O projeto conta com interface intuitiva, animações leves e feedback visual imediato das ações, além de adaptação para dispositivos móveis.
+
 ---
- 
-## 🧠 Tecnologias Utilizadas
- 
-- HTML5 semântico
-- CSS3 externo com responsividade
-- JavaScript puro (sem frameworks)
-- `localStorage` para persistência de estado
-- Manipulação de DOM com `document.*`
- 
+
+## 🎮 Funcionalidades
+
+### Sistema de Combate
+- **Ataque:** Golpeia os inimigos, reduzindo seu número.
+- **Defesa:** Diminui o dano recebido.
+- **Cura:** Recupera pontos de vida do gorila.
+- **Turnos automáticos:** Humanos reagem de forma imprevisível.
+
+### Interface do Usuário
+- **Barras de status:** Exibe vida do gorila e humanos restantes.
+- **Log de ações:** Histórico de combate em tempo real.
+- **Notificações:** Avisos de vitória, derrota ou eventos importantes.
+
+### Recursos Técnicos
+- **Persistência com localStorage:** Mantém o estado do jogo mesmo ao recarregar.
+- **Design Responsivo:** Compatível com desktops e dispositivos móveis.
+
 ---
- 
-## 🔧 Como executar
- 
-1. Baixe ou clone o projeto
-2. Abra o arquivo `index.html` em seu navegador
-3. Use os botões para interagir com o gorila
-4. O progresso será salvo automaticamente
- 
+
+## 🛠️ Tecnologias Utilizadas
+
+### Front-end
+<div style="display: inline_block"><br>
+  <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>
+
+- **HTML5 + CSS3 + JavaScript Puro**
+- **localStorage:** Armazenamento e recuperação de dados
+
 ---
- 
-## Integrantes
- 
-| Nome                           | GitHub                                         |LinkedIn
-| ------------------------------ | -----------------------------------------------|-------------------------------------------------------------------------|
-| Alexander Dennis Isidro Mamani | [alex-isidro](https://github.com/alex-isidro)  | [LinkedIn](https://www.linkedin.com/in/alexander-dennis-a3b48824b/)     |
-| Kelson Zhang                   | [KelsonZh0](https://github.com/KelsonZh0)      | [LinkedIn](https://www.linkedin.com/in/kelson-zhang-211456323/)         |
-| Lucas Rossoni Dieder           | [PxS00](https://github.com/PxS00)              | [LinkedIn](https://www.linkedin.com/in/lucas-rossoni-dieder-32242a353/) |
- 
-## ⚠️ Observações
- 
-- O projeto não depende de bibliotecas externas
-- Todos os membros contribuíram com commits distribuídos no repositório
-- O código está modularizado e comentado para facilitar a leitura
- 
+
+## 🚀 Como Executar Localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/PxS00/Gorila-x-100-Humanos
+
+2. Acesse a pasta do projeto:
+
+cd Gorila-x-100-Humanos
+
+3. Abra o arquivo index.html no navegador.
+
+## 👥 Equipe de Desenvolvimento
+
+| Nome                           | GitHub                                        | LinkedIn                                                                |
+| ------------------------------ | --------------------------------------------- | ----------------------------------------------------------------------- |
+| Alexander Dennis Isidro Mamani | [alex-isidro](https://github.com/alex-isidro) | [LinkedIn](https://www.linkedin.com/in/alexander-dennis-a3b48824b/)     |
+| Kelson Zhang                   | [KelsonZh0](https://github.com/KelsonZh0)     | [LinkedIn](https://www.linkedin.com/in/kelson-zhang-211456323/)         |
+| Lucas Rossoni Dieder           | [PxS00](https://github.com/PxS00)             | [LinkedIn](https://www.linkedin.com/in/lucas-rossoni-dieder-32242a353/) |
+
+## 👨‍🏫 Informações Acadêmicas
+
+**Professor Responsável:** Alexandre Carlos de Jesus  
+**Disciplina:** Front-end Design Engineering  
+**Instituição:** Fiap 
+
 ---
- 
-**Prof. Responsável:** Alexandre Carlos de Jesus
-**Disciplina:**  Front-end Design Engineering
+
+Desenvolvido com ❤️ pela equipe do Us Guri do Dev
